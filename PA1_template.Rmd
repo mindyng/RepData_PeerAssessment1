@@ -133,7 +133,7 @@ Originaldata$day_type <- as.factor(Originaldata$day_type)
 table_interval_steps_imputed <- aggregate(steps ~ interval+day_type, Originaldata, mean)
 
 
-2. Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).
+##2. Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis).
 
 # Make the panel plot for weekdays and weekends.
 library(ggplot2)
